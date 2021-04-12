@@ -1,0 +1,169 @@
+/*Форма поиска*/
+.example{
+    width: 900px;
+    box-sizing: border-box;
+    margin: 25px auto;
+    padding: 1rem;
+    border: solid #000000;
+    border-width: .2rem;
+  }
+  
+  .form-row .form-group{
+    
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0582ff;
+    text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .form-group{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    flex: 0 0 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: .5rem;
+  }
+  
+  .form-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .example button{
+    width: 100%;
+    background: rgb(29, 6, 6);
+  }
+  
+  .header-h1 {
+    position: relative;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding-left: 1rem;
+  }
+  
+  /*Заголовок*/
+  .header-h1 {
+    position: relative;
+    margin-bottom: .5rem;
+    text-align: center;
+    padding-left: 1rem;
+  }
+  
+  
+  
+  .header-h1 h1 {
+    font-size: 1.5rem;
+    color: #0f0a0a;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 0;
+    padding-right: 1rem;
+    text-transform: uppercase;
+  }
+  
+  /*Результаты*/
+  .blog-page{
+    width: 900px;
+    box-sizing: border-box;
+    margin: 15px auto;
+    padding: 1rem;
+    line-height: 1.42857143;
+    font-size: 13px;
+    color: #160e0e;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .blog-post{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    visibility: visible;
+    animation-name: fadeInUp;
+    background-image:url(https://yt3.ggpht.com/a/AATXAJxD8An1lCByMTWjMj8A8GI8CeyYDuQvEfu8tOos=s900-c-k-c0xffffffff-no-rj-mo);
+    border: solid #000000;
+    border-width: .2rem;
+    margin: 15px auto;
+    padding: 1rem;
+  }
+  
+  .blog-post h1{
+    visibility: visible;
+    box-sizing: border-box;
+    margin: .67em 0;
+    font-weight: 500;
+    line-height: 1.1;
+    background: #fff;
+    color: inherit;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'FjallaOneRegular';
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  
+  .author, .date-time{
+    padding-right: 20px;
+    background: #fff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .blog-post p{
+    margin: 0 0 10px;
+    padding-top: 16px;
+    background: #fff;
+    text-align: justify;
+    color: #0f0101;
+    margin-bottom: 0px;
+  }
+  
+  .read-more{
+    font-family: 'Roboto', sans-serif;
+    visibility: visible;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none!important;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all linear 0.2s;
+    background: #000000;
+    color: #fff;
+    border: none;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+  
+  .btn-plus{
+    
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+  
+  .img-responsive{
+    font-family: 'Roboto', sans-serif;
+    visibility: visible;
+    color: #0929dd;
+    box-sizing: border-box;
+    border: 0;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
